@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+
+    implementation project(':core')
+
+}

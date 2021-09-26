@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+allprojects {
+    group('com.epam.trainee')
+    version('1.3.5')
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+test {
+    useJUnitPlatform()
+}
